@@ -11,7 +11,7 @@ WRS2024プレ大会にて点検データをRMSクラウドにアップロード�
 ```bash
 source /opt/ros/humble/setup.bash
 rosdep update
-git clone git@github.com:Nexis-R/rms_ros2_ws.git ~/
+git clone git@github.com:NuTech-R/rms_ros2_ws.git ~/
 cd rms_ros2_ws
 rosdep install -r -y -i --from-paths .
 ```
